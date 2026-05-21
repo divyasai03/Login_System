@@ -1,0 +1,118 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #d0bdf4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #0056b3;
+        }
+
+        .divider {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome</h2>
+        <div class="nav-links">
+            <a href="{{ url_for('login') }}">Login</a>
+            <span class="divider">|</span>
+            <a href="{{ url_for('register') }}">Register</a>
+        </div>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #d0bdf4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            background-color: purple;
+            color: #fff;
+            font-weight: 600;
+            padding: 0.6rem 1.2rem;
+            margin: 0.5rem;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome</h2>
+        <div class="nav-links">
+            <a href="{{ url_for('login') }}" class="btn">Login</a>
+            <a href="{{ url_for('register') }}" class="btn">Register</a>
+        </div>
+    </div>
+</body>
+</html>
